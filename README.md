@@ -1,40 +1,16 @@
-# 📊 SmartSpend
+# flutter_application_1
 
-SmartSpend é um aplicativo Flutter que ajuda usuários a **registrar despesas mensais** e **prever gastos do próximo mês** usando a média dos últimos meses. É ideal para **controle financeiro pessoal** de forma simples e visual.
+A new Flutter project.
 
----
+## Getting Started
 
-## 🛠 Funcionalidades
+This project is a starting point for a Flutter application.
 
-- Adicionar, visualizar e gerenciar despesas mensais.
-- Exibir previsão de gastos do próximo mês com base nos últimos 3 meses.
-- Histórico completo de despesas.
-- Navegação intuitiva com menu inferior.
-- Interface limpa e amigável.
+A few resources to get you started if this is your first Flutter project:
 
----
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-## ⚙️ Tecnologias usadas
-
-- [Flutter](https://flutter.dev/) – Framework para desenvolvimento de aplicativos móveis.
-- Dart – Linguagem principal do Flutter.
-- Widgets Flutter para listas, botões, navegação e layout.
-- Lógica de previsão simples baseada em **média móvel** dos últimos 3 meses.
-
----
-
-## 📝 Estrutura do Projeto
-
-- `models/expense.dart` → Modelo de dados das despesas.
-- `services/prediction_service.dart` → Função de previsão de gastos (`predictNextMonth`).
-- `add_expense_screen.dart` → Tela para adicionar novas despesas.
-- `history_screen.dart` → Tela que exibe o histórico completo.
-- `home_screen.dart` → Tela principal do app, mostrando previsão e lista de despesas.
-
----
-
-## 🚀 Como usar
-
-1. Clone este repositório:
-   ```bash
-   git clone <URL_DO_SEU_REPOSITORIO>
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
